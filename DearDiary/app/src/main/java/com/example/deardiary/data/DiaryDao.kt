@@ -41,4 +41,10 @@ class DiaryDao(private val realm : Realm) {
                 }
         }
     }
+
+    fun getActiveAlarms() : RealmResults<DiaryData> {
+        return realm.where(DiaryData::class.java)
+            .greaterThan("alarmTime", Date())
+            .findAll()
+    }
 }

@@ -1,17 +1,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/action_attach"
+    <item android:id="@+id/action_attach"
         android:icon="@drawable/ic_picture"
         android:title="사진첨부"
-        app:showAsAction="always"
-        />
-    <item
-        android:id="@+id/action_save"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_save"
         android:title="저장"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/action_delete"
+    <item android:id="@+id/action_delete"
         android:title="삭제"
         app:showAsAction="always" />
+    <item android:id="@+id/menu_share"
+        android:title="공유"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_alarm"
+        android:title="알람설정"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_location"
+        android:title="위치설정"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_weather"
+        android:title="날씨설정"
+        app:showAsAction="never" />
 </menu>

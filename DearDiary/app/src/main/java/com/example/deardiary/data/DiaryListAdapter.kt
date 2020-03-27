@@ -18,8 +18,8 @@ class DiaryListAdapter (private val list : MutableList<DiaryData>) : RecyclerVie
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_diary, parent, false)
         itemView.setOnClickListener {
             itemClickListener?.run {
-                val memoId = it.tag as String
-                this(memoId)
+                val diaryId = it.tag as String
+                this(diaryId)
             }
         }
         return ItemViewHolder(itemView)
