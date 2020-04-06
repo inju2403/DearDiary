@@ -10,6 +10,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import androidx.core.app.NotificationCompat
+import com.example.deardiary.Activity.DetailActivity
 import com.example.deardiary.data.DiaryDao
 import io.realm.Realm
 import java.util.*

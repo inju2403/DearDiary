@@ -18,14 +18,14 @@
         <receiver android:name=".AlarmTool"></receiver>
 
         <activity
-            android:name=".DetailActivity"
+            android:name=".Activity.DetailActivity"
             android:label="@string/title_activity_detail"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".ListActivity"
+            android:name=".Activity.ListActivity"
             android:label="@string/title_activity_list"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".IntroActivity">
+        <activity android:name=".Activity.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

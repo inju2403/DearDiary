@@ -1,8 +1,9 @@
-package com.example.deardiary
+package com.example.deardiary.InfoView
 
 import android.content.Context
 import android.location.Geocoder
 import android.util.AttributeSet
+import com.example.deardiary.R
 import kotlinx.android.synthetic.main.view_info.view.*
 import java.util.*
 

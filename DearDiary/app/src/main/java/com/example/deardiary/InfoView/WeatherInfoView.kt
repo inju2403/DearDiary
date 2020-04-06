@@ -1,7 +1,8 @@
-package com.example.deardiary
+package com.example.deardiary.InfoView
 
 import android.content.Context
 import android.util.AttributeSet
+import com.example.deardiary.R
 import kotlinx.android.synthetic.main.view_info.view.*
 
 class WeatherInfoView @JvmOverloads constructor (context: Context,

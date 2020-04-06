@@ -1,9 +1,11 @@
-package com.example.deardiary
+package com.example.deardiary.Activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.deardiary.DiaryListFragment
+import com.example.deardiary.R
 import com.example.deardiary.data.ListViewModel
 import kotlinx.android.synthetic.main.activity_list.*
 
@@ -17,7 +19,10 @@ class ListActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val fragmentTransaction = supportFragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.contentLayout, DiaryListFragment())
+        fragmentTransaction.replace(
+            R.id.contentLayout,
+            DiaryListFragment()
+        )
         fragmentTransaction.commit()
 
         viewModel = application!!.let {

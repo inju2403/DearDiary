@@ -1,8 +1,9 @@
-package com.example.deardiary
+package com.example.deardiary.InfoView
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
+import com.example.deardiary.R
 
 open class InfoView @JvmOverloads constructor(context : Context,
                                               attrs : AttributeSet? = null,

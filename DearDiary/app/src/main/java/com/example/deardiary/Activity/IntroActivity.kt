@@ -1,4 +1,4 @@
-package com.example.deardiary
+package com.example.deardiary.Activity
 
 import android.Manifest
 import android.content.Intent
@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.deardiary.R
 
 class IntroActivity : AppCompatActivity() {
 
@@ -76,7 +77,8 @@ class IntroActivity : AppCompatActivity() {
                 this,
                 arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION,
                     android.Manifest.permission.ACCESS_COARSE_LOCATION),
-                REQUEST_LOCATION_PERMISSION_CODE)
+                REQUEST_LOCATION_PERMISSION_CODE
+            )
         }
     }
 

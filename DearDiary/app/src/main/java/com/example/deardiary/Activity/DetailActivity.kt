@@ -1,4 +1,4 @@
-package com.example.deardiary
+package com.example.deardiary.Activity
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -23,6 +23,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.deardiary.R
 import com.example.deardiary.data.DetailViewModel
 import com.google.android.material.snackbar.Snackbar
 import com.takisoft.datetimepicker.DatePickerDialog

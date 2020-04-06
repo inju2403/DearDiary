@@ -11,6 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.deardiary.Activity.DetailActivity
 import com.example.deardiary.data.DiaryListAdapter
 import com.example.deardiary.data.ListViewModel
 import kotlinx.android.synthetic.main.fragment_diary_list.*

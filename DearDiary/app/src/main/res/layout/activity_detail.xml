@@ -53,7 +53,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <com.example.deardiary.AlarmInfoView
+                <com.example.deardiary.InfoView.AlarmInfoView
                     android:id="@+id/alarmInfoView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <com.example.deardiary.LocationInfoView
+                <com.example.deardiary.InfoView.LocationInfoView
                     android:id="@+id/locationInfoView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/alarmInfoView" />
 
-                <com.example.deardiary.WeatherInfoView
+                <com.example.deardiary.InfoView.WeatherInfoView
                     android:id="@+id/weatherInfoView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

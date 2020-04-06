@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@color/gray_bg"
-    tools:context=".ListActivity"
+    tools:context=".Activity.ListActivity"
     tools:showIn="@layout/activity_list">
 
 </FrameLayout>
