@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat
 
 class DiaryListAdapter (private val list : MutableList<DiaryData>) : RecyclerView.Adapter<ItemViewHolder> () {
 
-    private val dateFormat = SimpleDateFormat("yy MM/dd HH:mm")
+    private val dateFormat = SimpleDateFormat("MM/dd HH:mm")
 
     lateinit var itemClickListener : (itemId : String) -> Unit
 
